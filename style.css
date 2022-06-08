@@ -9,16 +9,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  background-image: url("./images/bckg/wood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   font-family: sans-serif;
-  background-color: powderblue;
 }
 
 /* Book */
 .book {
   position: relative;
-  width: 350px;
-  height: 500px;
+  width: 500px;
+  height: 90%;
   transition: transform 0.5s;
 }
 
@@ -28,7 +30,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  perspective: 1500px;
+  perspective: 5000px;
 
 }
 
@@ -121,4 +123,9 @@ i {
 
 #p7 {
   z-index: 1;
+}
+
+#f1
+{
+  
 }
